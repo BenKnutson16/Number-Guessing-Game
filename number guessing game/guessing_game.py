@@ -9,7 +9,7 @@ import random
 
 def start_game():
     game_over = False
-    num = random.randrange(10)
+    num = random.randrange(1,10)
     tries = 0
     print("Welcome to the Number Guessing Game!")
     while not game_over:
